@@ -10,24 +10,23 @@ This system consists of two main components:
 
   - Rescheduler (member2_rescheduler_tn.py) - An optimization system that detects conflicts and applies ACO (Ant Colony Optimization) or rule-based rescheduling
 
-  ## Features
-    ### Simulator Features
-        - Multi-line railway network with junctions and bidirectional edges
+## Features
+  ### Simulator Features
+  * Multi-line railway network with junctions and bidirectional edges
           
-        - Continuous speed carryover between track segments (no speed reset)
+  * Continuous speed carryover between track segments (no speed reset)
           
-        - Physically accurate kinematics - acceleration, cruising, and braking profiles
+  * Physically accurate kinematics - acceleration, cruising, and braking profiles
+  * Train length & tail clearance modeling
           
-        - Train length & tail clearance modeling
+  * Absolute-block signaling with headway enforcement
           
-        - Absolute-block signaling with headway enforcement
+  * Multiple dispatcher policies: FCFS, Priority-based, Throughput-optimized
           
-        - Multiple dispatcher policies: FCFS, Priority-based, Throughput-optimized
+  * Station stops with dwell times and scheduled departures
           
-        - Station stops with dwell times and scheduled departures
+  * Energy consumption estimation
           
-        - Energy consumption estimation
-          
-        - Comprehensive outputs: events CSV, configuration JSON, network plots, time-distance diagrams, animations
+  * Comprehensive outputs: events CSV, configuration JSON, network plots, time-distance diagrams, animations
      
-     ### Rescheduler Features
+  ### Rescheduler Features
