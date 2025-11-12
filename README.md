@@ -128,19 +128,29 @@ pandas >= 1.4.0   # for data handling
 * actions.json: Recommended hold times for each train
 
 * reschedule_before_events.csv: Original event timeline
+* [reschedule_before_events.csv](https://github.com/user-attachments/files/23505266/reschedule_before_events.csv)
+
+
 
 * reschedule_after_events.csv: Rescheduled event timeline
+* ![Image](https://github.com/user-attachments/assets/9b1a7e2f-6ecc-43f9-b159-faf843f34479)
 
-* time_distance_before.png: Original time-distance plot
-
-* time_distance_after.png: Rescheduled time-distance plot
-
-* time_distance_compare.png: Before/after comparison
 
 * reschedule_summary.csv: Summary of applied holds
+* [reschedule_summary.csv](https://github.com/user-attachments/files/23505262/reschedule_summary.csv)
+
+
+
+
+<img width="2400" height="1600" alt="Image" src="https://github.com/user-attachments/assets/0d50f5c6-0f93-40fd-a5e6-abe08dcb0d39" />
+
+[reschedule_after_events.csv](https://github.com/user-attachments/files/23505265/reschedule_after_events.csv)
+
 
 ## Network Configuration
  The system models an illustrative Tamil Nadu railway network with key stations:
+   <img width="2000" height="1600" alt="Image" src="https://github.com/user-attachments/assets/fcd398a1-63a7-4075-a61b-79ee61a9a58c" />
+
 
 * Chennai Central (MAS) - Starting point at 0km
 
